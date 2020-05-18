@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="">
+      <input
+        type="text"
+        placeholder="Nombre"
+        maxlength="5"
+        size="50"
+        required
+        name="Nombre"
+      />
+      <br />
+
+      <input type="e-mail" name="correo" placeholder="correo" /> <br />
+
+      <textarea
+        name="texto"
+        cols="30"
+        rows="10"
+        placeholder="escribe"
+      ></textarea>
+      <br />
+
+      <select name="pais" id="pais">
+        <option value="1">Mexico</option>
+        <option value="España">España</option>
+      </select>
+      <input type="radio" name="genero" value="hombre" id="hombre" /><label for="hombre">Hombre</label>
+      <input type="radio" name="genero" value="mujer" id="mujer" /> <label for="mujer">Mujer</label><br />
+
+      <input type="checkbox" value="terminos" id="terminos"> <label for="terminos">Terminos y condiciones</label>
+      <input type="submit" value="enviar" />
+    </form>
+  </body>
+</html>
